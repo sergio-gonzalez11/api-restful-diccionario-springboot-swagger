@@ -1,0 +1,19 @@
+
+## APi diccionario https://api.dictionaryapi.dev/api/v2/entries/es/mujer, https://dictionaryapi.dev/
+
+server:
+  port: 9090
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  application:
+    name: "@project.name@"
+    version: "@project.version@"
+  jackson:
+    date-format: dd-MM-yyyy
+    locale: es_ES
+    time-zone: Europe/Madrid
